@@ -1,0 +1,69 @@
+:root {
+    --brack: #303030;
+    --obrama: #101010;
+    --prime-green: #9FE3C3;
+    --prime-red: #E39F9F;
+    --prime-blue: #9FC3E3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    opacity: 90%;
+    color: var(--brack);
+    text-decoration: none;
+}
+
+.total {
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    height: 40px;
+    width: 100%;
+}
+
+.gameboard {
+    height: 75vh;
+    display: flex;
+}
+
+.scoreboard {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards-home {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    height: 40%;
+    width: auto;
+}
+
+.modes {
+    height: 100%;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inline {
+    display: inline-flex;
+    width: 150px;
+}
+
+.modes a button {
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 4px 12px;
+}
